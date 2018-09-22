@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Contacts | Tea House</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/normalize.css" rel="stylesheet">
+		<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Ramaraja|Work+Sans" rel="stylesheet">
+		<link href="css/grid.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+		<script src="js/modernizr-custom.js"></script>
+	</head>
+	<body>
+		<div class="page-wrapper">
+			<header>
+				<div class="phone">
+					<i class="fas fa-phone-volume">&nbsp;<p>CALL US 613-123-4567</p></i>
+				</div>
+
+
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.jpg" alt="teashop logo"></a>
+					<h1>Tea House</h1>
+				</div>
+					
+				<div class="menu-box">
+					<button id="phone-icon"><i class="fas fa-phone-volume"></i></button>
+					<div id="number-panel">CALL US <br> 613-123-4567</div>
+
+					<button id="search-icon"><i class="fas fa-search"></i></button>
+					<div id="search-box" class="search-menu">
+						<form action="index.html">
+							<input type="text" class="search-container" placeholder="Search..." name="search">
+							<button type="submit">SUBMIT</button>
+						</form>
+					</div>
+				</div>
+
+				<!-- clicable dropdown menu -->
+				<div class="topnav" id="myTopnav">
+					<a href="index.html">HOME</a>
+					<a href="tea.html">TEA</a>
+					<a href="teaware.html">TEAWARE</a>
+					<a href="environment.html">ENVIRONMENT</a>
+					<a href="contacts.html">CONTACTS</a>
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a>
+				</div>
+
+				<div class="search-bar">
+					<form action="index.html" method="get">
+						<input type="text" placeholder="search...">
+						<button><i class="fas fa-search"></i></button>
+					</form>
+				</div>
+			</header>
+
+			<section class="contacts-page">
+				<div class="page-head">
+					<h2>Contact us right now</h2>
+					<p>Tea House offer the largest collections of high quality tea consistently fresh. Please do not hesitate to contact us in any way you prefer.</p>
+				</div>
+				<div class="message-bg">
+					<form class="message-box">
+					    <label for="fname">First Name</label>
+					    <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+					    <label for="lname">Last Name</label>
+					    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+					    <label for="subject">Subject</label>
+					    <textarea id="subject" name="subject" placeholder="Write down your question..."></textarea>
+					    <input type="submit" onclick="alert('Submitted successfully! Thanks for your message!')" value="Submit">
+					</form>
+				</div>
+			</section>
+
+			<section class="contacts">
+				<div class="wrapper">
+					<div class="col col-4">
+						<button class="collapse-panel">OPENING HOURS</button>
+						<div class="content">
+							<p>Weekdays 9:00 - 21:00<br>Weekdays 9:00 - 21:00</p>
+						</div>	
+							<!--<i class="fas fa-bars fa-lg"></i>-->
+					</div>
+
+					<div class="col col-4">
+						<button class="collapse-panel">FOLLOW US</button>
+						<div class="content social-info">
+							<a href="#"><i class="fab fa-facebook-f fa-lg"></i></a>
+							<a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+							<a href="#"><i class="fab fa-youtube fa-lg"></i></a>
+							<a href="#"><i class="fab fa-linkedin-in fa-lg"></i></a>
+						</div>
+						<!--<i class="fas fa-bars fa-lg"></i>-->
+					</div>
+
+					<div class="col col-4">
+						<button class="collapse-panel">CONTACT US</button>
+						<div class="content">
+							<p>123 Abc Street, K2C 1M9<br><a href="mailto: teahouse@gmail.com">teahouse@gmail.com</a></p>
+						</div>
+							<!--<i class="fas fa-bars fa-lg"></i>-->
+					</div>
+				</div>
+			</section>
+
+			<footer>
+				<p>Copyright &copy; 2018 Tea House Ltd. All Rights Reserved</p>
+			</footer>
+		</div>
+
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="js/javascript.js"></script>
+	</body>
+</html>
